@@ -10,6 +10,10 @@ set up your virtual env and install deps.
 virtualenv -p python3 venv
 source venv/bin/activate
 
+# For Windows users:
+virtualenv venv
+source venv/Scripts/activate
+
 # Check version
 python --version
 # Python 3.6.1
